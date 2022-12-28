@@ -1,0 +1,7 @@
+1. install IIS Server via "Control Panel\Programs\Programs and Features" > "Turn Windows features on or off" > "Internet Information Services" & "Internet Information Services Hostable Web Core".
+2. download IIS .net bundle from Microsoft's website. (needed for api .net api projects)
+3. any site to be shared has to run from a "wwwroot" folder.
+4. open designated port via WF.msc > inbound rules > new rule > Protocols and Ports > TCP > specific ports> 90, 900 (example).
+5. in IIS, new website, location of wwwroot, port, ip of pc.
+6. to share outside to the world, port forwarding is needed to be configured on your local router, relativley easy, choose the inside port and the outside port.
+7. to reach your pc from outside world simply type in the url bar router's IP:outside port.
